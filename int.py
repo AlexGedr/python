@@ -1,0 +1,5 @@
+x = int(input('enter time'))
+h = int(input('enter houre'))
+m = int(input('enter minute'))
+print((x+h*60+m)//60)
+print((x+h*60+m)%60)
